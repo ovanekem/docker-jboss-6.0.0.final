@@ -1,6 +1,8 @@
 # docker-jboss-6.0.0.final
 Docker image that builds a JBOSS AS 6.0.0.final server along with JDK 1.6.0_45.
 
+Note: because of the licence restrictions of the Oracle JDK, I cannot push a pre-built image on the Docker hub. You have to build the image yourself and download (and accept) yourself the Terms & Conditions of the Oracle JDK.
+
 First you need to download the Oracle JDK 1.6.0_45 rpm package.
 This is required because JBOSS AS 6.0.0.final works with a JDK 6 runtime.
 After testing, it appeared that the OpenJDK gives a ClassCastException when starting the application server. Relying on the Oracle JDK allows to run the application server directly.
