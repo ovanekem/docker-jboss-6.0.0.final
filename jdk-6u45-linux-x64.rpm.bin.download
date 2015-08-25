@@ -1,0 +1,5 @@
+# Download this package from Oracle (after accepting the conditions) and place it in the folder along the Dockerfile
+# ====
+#  - http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase6-419409.html#jdk-6u45-oth-JPR 
+#
+jdk-6u45-linux-x64.rpm.bin
